@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.maindiv{
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centerdiv{
+  width:400px;
+  height: 300px;
+
+  box-shadow: 0px 2px 2px  3px gray;
+  
+}
+.heading-top{
+  color: white;
+  background-color: blue;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  
+}
+.maininputdiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  
+
+}
+.inputdiv input[type=text]{
+  width: 200px;
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 5px;
+}
+.buttondiv button{
+  background-color: blue;
+  color: white;
+  padding: 5px 8px;
+  
+}
+.row{
+  
+  padding: 0px 20px;
+  border: 2px solid black;
+  
+}
+.itemdiv{
+  
+  border:2px solid black;
+}
+.Editdiv{
+  margin: 0px 10px;
+  border:2px solid red;
+}
+
